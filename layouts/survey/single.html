@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class="question-container">
+    <h1>{{ .Params.text }}</h1>
+    <ul class="options">
+      {{ range .Params.options }}
+        <li><button onclick="nextQuestion('{{ .nextQuestion }}')">{{ .text }}</button></li>
+      {{ end }}
+    </ul>
+  </div>
+  <script>
+    function nextQuestion(nextQuestion) {
+      window.location.href = '/' + nextQuestion;
+    }
+  </script>
+{{ end }}

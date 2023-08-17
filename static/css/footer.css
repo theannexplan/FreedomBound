@@ -1,0 +1,57 @@
+/* Style the footer columns */
+.site-footer .col-md-4 {
+    padding: 0 15px;
+  }
+  
+  /* Style the footer headings */
+  .site-footer h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer contact information */
+  .site-footer p {
+    margin-bottom: 15px;
+  }
+  
+  /* Style the quick links */
+  .quick-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 8px;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #777;
+  }
+  
+  .quick-links a:hover {
+    color: #0070c9;
+  }
+  
+  /* Style the social media icons */
+  .social-icons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #0070c9;
+  }
+  

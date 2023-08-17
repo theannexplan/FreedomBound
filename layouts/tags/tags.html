@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tags Archive</title>
+</head>
+<body>
+  <header>
+    <h1>Tags Archive</h1>
+  </header>
+  
+  <main>
+    <ul>
+      {{ range .Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </main>
+  
+  <footer>
+    <p>&copy; {{ now.Format "2006" }} Your Site Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>

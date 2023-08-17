@@ -1,0 +1,22 @@
+baseURL = "/"
+title = "Freedom Bound"
+publishDir = "docs"
+
+[params]
+  author = "Your Name"
+  description = "Guiding users through a survey."
+
+[content]
+  [content.result-pages]
+    isSection = true
+
+  [content.about]
+    layout = "single-about"
+
+[permalinks]
+  survey = "/survey/:filename/"
+  about = "/about/:filename/"
+
+[outputFormats.SURVEY]
+  mediaType = "text/html"
+  baseName = "index"

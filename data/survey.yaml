@@ -1,0 +1,21 @@
+- id: question1
+  text: "What is your favorite color?"
+  options:
+    - text: "Blue"
+      nextQuestion: question2
+    - text: "Red"
+      nextQuestion: question3
+- id: question2
+  text: "What is your favorite animal?"
+  options:
+    - text: "Dog"
+      nextQuestion: resultPage1
+    - text: "Cat"
+      nextQuestion: resultPage2
+- id: question3
+  text: "Do you like pizza?"
+  options:
+    - text: "Yes"
+      nextQuestion: resultPage3
+    - text: "No"
+      nextQuestion: resultPage4
